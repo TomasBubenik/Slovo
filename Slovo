@@ -1,0 +1,24 @@
+str = """Moje meno je Tomáš
+Skačem ahoj
+Beham ahoj"""
+d = {}
+for i in str:
+    if i in d:
+        d[i]=d[i]+1
+    else:
+        d[i]=1
+print(d)
+
+
+e = (1)
+for i in str: 
+    if i == " " or i == "\n":
+            e=e+1
+
+
+f = (1)
+for i in str:
+    if i == "\n":
+        f=f+1
+print(f)
+print(e)
